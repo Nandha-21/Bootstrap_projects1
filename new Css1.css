@@ -132,8 +132,31 @@
     margin-left: 38px;
     background-color: rgb(0, 131, 116);
 }
-
 .heading p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.heading-1 h1 {
+    font-size: 30px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.heading-1 h1::after {
+    position: absolute;
+    content: "";
+    justify-content: center;
+    align-content: center;
+    width: 50px;
+    height: 3px;
+    display: block;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: 650px;
+    background-color: rgb(0, 131, 116);
+}
+.heading-1 p {
     font-size: 18px;
     margin-top: 15px;
 }
@@ -344,12 +367,10 @@
     /* text-align: justify; */
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* background-color: black; */
     height: 600px;
     border-radius: 20px;
     /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)); */
 }
-
 .call-action {
     text-decoration: none;
     border: 2px solid white;
@@ -401,29 +422,23 @@ background-color: rgb(26,144,130);
 .line {
     margin-top: 40px;
 }
-
 .star {
     color: gold;
 }
-
 .h4 {
     color: rgb(150, 150, 150);
     font-size: 15px;
-
 }
-
 #card-text {
     font-style: italic;
 
 }
-
 /* .card{
     width: 500px;
     height: 10px;
     border: 1px solid black;
 
 } */
-
 .card1 {
     width: 270px;
     height: 300px;
@@ -441,9 +456,7 @@ background-color: rgb(26,144,130);
     /* height: 100%; */
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
     border-color: rgb(255, 255, 255);
-
 }
-
 .test-img {
     width: 200px;
     height: 70px;
@@ -451,24 +464,19 @@ background-color: rgb(26,144,130);
     /* border-radius: 25%; */
     padding: 0px, 20px, 20px, 20px;
 }
-
-
-
-
 .team-a {
     display: flex;
     flex-direction: row;
-    margin: 20px auto;
+    margin-top: 20px;
     /* padding: 20px; */
     /* border-radius: 30px; */
     box-shadow: 30px;
     background-color: white;
-
 }
-
-#team1 {
-    margin-left: 20px;
+#team1{
+    /* margin-right: 20px; */
     padding: 15px;
+    width:280px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
@@ -480,7 +488,6 @@ background-color: rgb(26,144,130);
     max-width: 100%;
     height: auto;
 }
-
 .t1 {
     font-weight: 700;
     margin-top: 16px;
@@ -488,7 +495,6 @@ background-color: rgb(26,144,130);
     font-size: 20px;
     text-align: center;
 }
-
 .t2 {
     font-style: italic;
     /* display: block; */
@@ -500,7 +506,6 @@ background-color: rgb(26,144,130);
     margin-bottom: 50px;
     margin-left: 35px;
 }
-
 #team-i {
     font-style: italic;
     font-size: 20px;
@@ -517,15 +522,11 @@ background-color: rgb(26,144,130);
     border-radius: 100%;
     /* display: inline-block; */
     padding: 6px 10px;
-
-
 }
-
 #team-i:hover {
     color: rgb(0, 131, 116);
     border-color: rgb(0, 131, 116);
 }
-
 .ul {
     text-align: center;
     display: flex;
@@ -536,41 +537,31 @@ background-color: rgb(26,144,130);
     justify-content: center;
     margin-bottom: 20px;
 }
-
 .li-1 {
     font-weight: bolder;
     font-size: 17px;
 
 }
-
 .li {
     color: rgb(0, 131, 116);
     font-weight: bolder;
     font-size: 17px;
 }
-
 .li-1:hover {
     color: rgb(0, 131, 116);
 }
-
 .protlist {
     border: 1px;
     box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1);
     border-color: rgb(255, 255, 255);
 }
-
-
 .portimg {
     transition: 0.3s ease-in-out;
-
 }
-
 .portimg:hover {
     transform: scale(0.9, 0.9);
     transform-box: scale(0.9);
 }
-
-
 .free {
     border: 2px solid black;
     width: 400px;
@@ -583,13 +574,11 @@ background-color: rgb(26,144,130);
     margin-bottom: 40px;
     /* display: flex;   */
 }
-
 .buss {
     /* margin-bottom: 70px; */
     /* margin-top: 0px; */
     height: 690px !important;
 }
-
 .f-1 {
     font-weight: bold;
     font-size: 18px;
@@ -999,47 +988,49 @@ position: absolute;
 .use:hover {
     color: white;
 }
-
 .use-1 {
     list-style: none;
     color: white;
     font-size: 14px;
-
 }
-
 @media screen and (max-width: 375px) {
     .img-5 {
         width: 290px;
     }
-
     #img1 {
         width: 330px;
         height: 300px;
     }
-
     .f1 {
         font-size: 25px;
     }
-
     div.imp {
         font-size: 15px;
     }
-
     .h-100 {
         width: 300px;
     }
     .box-pricing {
        margin-bottom: 20px;        
     }
-    
      .as{
      text-align: left;       
      }
-     #accordion{
-        /* width: 370px; */
+     .accordion{
+        width: 370px;
         margin-left:0;
      }
      .fot-con{
         text-align: center;
+    }
+     .heading-1 h1::after {
+    margin-left: 180px;
      }
+    .bor {
+     margin-bottom: 20px;
+   }  
 }
+
+
+
+
