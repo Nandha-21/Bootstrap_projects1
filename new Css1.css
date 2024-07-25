@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #navbarNavDropdown {
     font-weight: bold;
     color: white;
@@ -15,7 +21,7 @@
     display: inline-block;
     font-size: 17px;
     font-weight: 500;
-    color: rgb(255, 238, 206);
+    color: white;
     background-color: rgb(26, 144, 130);
 }
 
@@ -642,7 +648,7 @@ span {
     border-color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
     width: 380px;
-    height: 650px;
+    height: 630px;
     border-radius: 20px;
 }
 
@@ -1025,14 +1031,12 @@ position: absolute;
     .box-pricing {
        margin-bottom: 20px;        
     }
-    .box-pricing-1{
-        margin-bottom: 20px;        
-     }
+    
      .as{
      text-align: left;       
      }
      #accordion{
-        width: 370px;
+        /* width: 370px; */
         margin-left:0;
      }
      .fot-con{
