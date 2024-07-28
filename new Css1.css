@@ -3,13 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    scroll-behavior: smooth;
+}
 #navbarNavDropdown {
     font-weight: bold;
-    color: white;
+    /* color: white; */
 }
 .navbar-toggler{
     padding: 0px;
-    margin-top: 0px;
+    /* display: none; */
+    border: 0px;
+    /* margin-top: -10px; */
+    height: 0px;
+    --bs-navbar-toggler-focus-width:none;
+}
+.navbar-toggler-icon{
+    margin-top: -20px;
+    padding:0px;
+}
+#ho1{
+    color: white;
 }
 .border {
     text-decoration: none;
@@ -83,7 +97,8 @@
     }
     .box-container {
         position: relative;
-        margin-top: -1100px
+        margin-top: -1000px;
+        background-color:rgb(0, 131, 116) ;
     }
 }
 .heading {
@@ -303,6 +318,18 @@
     opacity: 1;
     /* background-color: transparent; */
 }
+#bg-btn{
+    border: 1px solid rgb(128, 193, 186);
+    /* height: 30px; */
+    /* width: 30px; */
+    border-radius: 50%;
+    /* margin: 5px; */
+    padding: 5px 9px;
+    /* padding: 10px; */
+    font-size: 30px;
+    color: white;
+    background-color: rgb(26, 144, 130);
+}
 #flows {
     /* width: 87%;
     height: 700px; */
@@ -324,9 +351,9 @@
     border: 2px solid white;
     width: 900px;
     height: 90px;
-    padding: 8px;
-    border-radius: 25px;
-    /* font-size: 18px; */
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 25px;
     font-weight: 400;
     color: white;
     background-color: transparent;
@@ -587,6 +614,7 @@ span {
     /* margin-bottom: 40px; */
     font-size: 20px;
     font-weight: 600;
+    color: black;
 }
 .buy:hover {
     color: white;
@@ -602,46 +630,19 @@ span {
     font-weight: 400;
     color: rgb(140,112,100);
 } 
-/* .acc{
-    margin-top: 18%;
-   font-size: 20px;
-   background-color: white;
-   
+.accordion-body{
+    padding-left: 20px;
 }
-.acc:hover{
-    background-color: white;
+.accordion{
+    /* font-size: 18px; */
+  --bs-accordion-btn-bg:white;
+  --bs-accordion-active-bg:white;
+  --bs-accordion-active-color:#008372;
+  --bs-accordion-border-color:white;
+  --bs-accordion-btn-focus-box-shadow:none;
+  --bs-accordion-body-padding-y:0px 20px;
+  --bs-accordion-btn-icon-transfrom:rotate(0deg);
 }
-
-.accordion-button{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-   width: 735px;
-   height: 60px;
-   background-color: white;
-   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-   border-color: rgb(255,255,255);
-}
-
-.num{
-    color: rgb(26,144,130);
-    padding-bottom: 20px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-                     position: relative; 
-    display: flex;
-    height: 50px;
-   margin-top: 40px;
-  text-align: center;
-}
-.num-1{
-    color: black;
-
-}
-.num-1:hover{
-    color: rgb(26,144,130);
-} */
 .bor {
     border: 3px solid black;
     border-radius: 20px;
@@ -785,7 +786,25 @@ span {
     color: white;
     font-size: 14px;
 }
-@media screen and (max-width: 375px) {
+#uparrow{
+     position: fixed;
+     bottom: 15px;
+     right: 12px;
+     font-size: 20px;
+     background-color: rgb(49, 155, 143);
+     border: 1px solid rgb(49, 155, 143);
+     color: white;
+     border-radius: 50%;
+     padding: 5px 9px;
+     text-decoration: none;
+}
+@media screen and (max-width: 760px) {
+    .navbar-collapse{
+        background-color: white;
+    }
+    #ho1{
+        color: black;
+    }
     .img-5 {
         width: 290px;
     }
