@@ -6,6 +6,7 @@
 body{
     scroll-behavior: smooth;
 }
+/* ---------------------------------- */
 #navbarNavDropdown {
     font-weight: bold;
     /* color: white; */
@@ -25,14 +26,16 @@ body{
 #ho1{
     color: white;
 }
+/* ------------------   HOME    ---------------------*/
 .border {
     text-decoration: none;
-    transition: 0.2s ease-in;
-    border: 3px solid rgb(49, 155, 143);
+    transition: 0.5s ease-in;
+    /* border: 2px solid red; */
     border-radius: 25px;
-    margin: 10px;
+    /* margin: 10px; */
     /* opacity: 0.5; */
-    padding: 10px 20px;
+    padding: 10px 35px;
+    /* width: 200px; */
     display: inline-block;
     font-size: 17px;
     font-weight: 500;
@@ -41,7 +44,7 @@ body{
 }
 .border:hover {
     opacity: 0.9;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 #icon {
     opacity: 0.5;
@@ -74,10 +77,12 @@ body{
     /* transform: scale(1,2);
     transform: translate(200px,200px) */
 }
-
-/* .box:hover{ */
-/* opacity: 0.8 !important; */
-/* } */
+#lett{
+    opacity: 0.7;
+}
+.box-hover:hover #lett{
+    opacity: 1;
+}
 .box-hover:hover {
     background-color: rgb(26, 144, 130) !important;
     /* opacity: 0.8 ;  */
@@ -142,6 +147,7 @@ body{
     margin-bottom: 25px;
     position: relative;
 }
+/* -----------------           ----------------- */
 .heading-1 h1::after {
     position: absolute;
     content: "";
@@ -159,6 +165,7 @@ body{
     font-size: 18px;
     margin-top: 15px;
 }
+/* -----------------   ABOUTS     ----------------- */
 .f1 {
     font-weight: bolder;
     font-size: 32px;
@@ -216,7 +223,7 @@ body{
     font-size: 20px;
 } */
 .a {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     color: black;
 }
@@ -242,30 +249,11 @@ body{
     flex-direction: row;
     /* justify-content: space-evenly; */
 }
-/* #icon-2 {
-    font-size:44px !important;
-    color:rgb(0,131,116) !important;
-    margin-right: 10px !important;
-    font-weight: bolder !important; 
-     padding: 20px; 
-    margin-right: 70px;
-    margin-left: 90px;
-     justify-content: center; 
-}    */
 #icon-4 {
-    font-size: 44px;
+    /* font-size: 44px; */
     color: rgb(0, 131, 116);
     margin-right: 10px;
     font-weight: bolder;
-}
-/* .co{
-    justify-content: left;
-    margin-left: 5px;
-    margin-right: 2px;
-
-} */
-.span {
-    font-size: 15px;
 }
 .p1 {
     /* align-content: end; */
@@ -292,14 +280,6 @@ body{
     /* transition: 3s; */
     border-radius: 50px;
 }
-.h-100 {
-    margin-left: 20px;
-    padding: 15px;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-    border-color: rgb(255, 255, 255);
-}
 #border {
     text-decoration: none;
     transition: 0.2s ease-in;
@@ -318,6 +298,7 @@ body{
     opacity: 1;
     /* background-color: transparent; */
 }
+/* ---------------        call to action            ------------------- */
 #bg-btn{
     border: 1px solid rgb(128, 193, 186);
     /* height: 30px; */
@@ -349,11 +330,11 @@ body{
 .call-action {
     text-decoration: none;
     border: 2px solid white;
-    width: 900px;
-    height: 90px;
-    padding: 12px;
-    border-radius: 10px;
-    font-size: 25px;
+    /* width: 900px; */
+    /* height: 90px; */
+    padding: 8px 32px;
+    border-radius: 5px;
+    font-size: 20px;
     font-weight: 400;
     color: white;
     background-color: transparent;
@@ -377,21 +358,55 @@ body{
     margin-bottom: 30px !important;
     background-color:rgb(231,233,233);  */
 /* } */
+/* ---------------------           Our Service           ------------------------------------- */
+.h-100 {
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-color: rgb(255, 255, 255);
+}
+#diagram{
+    font-size: 60px; 
+    opacity: 0.5;
+}
+.h-100:hover #diagram{
+    opacity: 1;
+}
+#dot{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 20px;
+    opacity: 0.1;   
+    /* margin-top: px; */
+}
+.h-100:hover #dot{
+    color: rgb(0, 131, 116);
+    opacity: 0.8;
+}
 .unline {
     width: 135px;
     padding-bottom: 10px;
-    border-bottom: 4px solid rgb(185, 185, 185);
+    border-bottom: 3px solid rgb(185, 185, 185);
+  opacity: 0.6;
+  
 }
-.unline:hover {
-    border-bottom: 4px solid rgb(0, 131, 116);
+.h-100:hover .unline{
+    border-bottom: 3px solid  rgb(26,144,130);
+     opacity: 1;
 }
-/* .unline::after:hover{
-background-color: rgb(26,144,130);
-  color: rgb(26,144,130);
-} */
 .line {
-    margin-top: 40px;
+    margin-top: 20px;
 }
+.read{
+    font-size: 17px;
+    opacity: 0.8;
+}
+.h-100:hover .read{
+    color: rgb(26,144,130);
+}
+/* ------------------------------------        Testimonials                ---------------------------------------- */
 .star {
     color: gold;
 }
@@ -432,6 +447,43 @@ background-color: rgb(26,144,130);
     /* border-radius: 25%; */
     padding: 0px, 20px, 20px, 20px;
 }
+/* -----------------------------------------      Portfolio       -------------------------------------------- */
+.ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    list-style-type: none;
+    /* text-align: center; */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.li-1 {
+    font-weight: bolder;
+    font-size: 17px;
+}
+.li {
+    color: rgb(0, 131, 116);
+    font-weight: bolder;
+    font-size: 17px;
+}
+.li-1:hover {
+    color: rgb(0, 131, 116);
+}
+.protlist {
+    border: 1px;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1);
+    border-color: rgb(255, 255, 255);
+    width: 22rem;
+}
+.portimg {
+    transition: 0.3s ease-in-out;
+}
+.portimg:hover {
+    transform: scale(0.9, 0.9);
+    transform-box: scale(0.9);
+}
+/* -------------------------------------------          Our Team              ---------------------------------------------- */
 .team-a {
     display: flex;
     flex-direction: row;
@@ -494,79 +546,7 @@ background-color: rgb(26,144,130);
     color: rgb(0, 131, 116);
     border-color: rgb(0, 131, 116);
 }
-.ul {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    list-style-type: none;
-    /* text-align: center; */
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.li-1 {
-    font-weight: bolder;
-    font-size: 17px;
-}
-.li {
-    color: rgb(0, 131, 116);
-    font-weight: bolder;
-    font-size: 17px;
-}
-.li-1:hover {
-    color: rgb(0, 131, 116);
-}
-.protlist {
-    border: 1px;
-    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1);
-    border-color: rgb(255, 255, 255);
-}
-.portimg {
-    transition: 0.3s ease-in-out;
-}
-.portimg:hover {
-    transform: scale(0.9, 0.9);
-    transform-box: scale(0.9);
-}
-.free {
-    border: 2px solid black;
-    width: 400px;
-    height: 600px;
-    list-style-type: none;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-    border-color: rgb(255, 255, 255);
-    /* position: relative; */
-    margin-top: 60px !important;
-    margin-bottom: 40px;
-    /* display: flex;   */
-}
-.buss {
-    /* margin-bottom: 70px; */
-    /* margin-top: 0px; */
-    height: 690px !important;
-}
-.f-1 {
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 35px;
-    margin-bottom: 30px;
-}
-.mon {
-    color: rgb(167, 167, 167);
-    font-size: 18px;
-    font-weight: 500;
-}
-.li-3 {
-    list-style-type: none;
-    font-size: 15px;
-    display: inline-block;
-    margin-bottom: 70px;
-    margin-top: 50px;
-    padding: 30px auto;
-    text-align: left;
-}
+/* --------------------------------------------      Pricing          ----------------------------- */
 .box-free {
     box-sizing: border-box;
     border: 4px solid rgb(26, 144, 130);
@@ -620,6 +600,7 @@ span {
     color: white;
     background-color: rgb(26, 144, 130);
 }
+/* -------------------------------------------       Question & Accordion               ----------------------------------------------- */
 .as {
     margin-top: 78px;
     font-size: 40px;
@@ -643,6 +624,7 @@ span {
   --bs-accordion-body-padding-y:0px 20px;
   --bs-accordion-btn-icon-transfrom:rotate(0deg);
 }
+/* ------------------------------------------       Recent Blog Posts            ----------------------------------------- */
 .bor {
     border: 3px solid black;
     border-radius: 20px;
@@ -700,6 +682,7 @@ span {
 .de:hover {
     color: rgb(26, 144, 130);
 }
+/* -----------------------------------------     Contact           ------------------------------------------------- */
 .full {
     /* border: 1px solid rgb(0,131,116); */
     /* width: 400px; */
@@ -754,6 +737,7 @@ span {
 .submit:hover {
     opacity: 0.9;
 }
+/* -------------------------------------------       Footer            ------------------------------------------- */
 .fot {
     color: rgb(128, 193, 186);
     border: 1px solid rgb(128, 193, 186);
@@ -798,6 +782,7 @@ span {
      padding: 5px 9px;
      text-decoration: none;
 }
+/* --------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 760px) {
     .navbar-collapse{
         background-color: white;
@@ -806,7 +791,9 @@ span {
         color: black;
     }
     .img-5 {
-        width: 290px;
+        width: auto;
+        /* height: auto; */
+        margin: auto;
     }
     #img1 {
         width: 330px;
@@ -819,17 +806,28 @@ span {
         font-size: 15px;
     }
     .h-100 {
-        width: 300px;
+        width: auto;
+        margin: auto;
     }
     .box-pricing {
-       margin-bottom: 20px;        
+     margin: auto;
+     width: auto;
+       /* margin-bottom: 20px; */
+    }
+    .box-pricing-1{
+      width: auto;
+      margin: auto;
     }
      .as{
      text-align: left;       
      }
      .accordion{
-        width: 370px;
-        margin-left:0;
+        /* width: 370px; */
+        /* margin-left:0; */
+        width: auto;
+       margin: auto;
+       height: auto;
+       /* padding: 0px 10px; */
      }
      .fot-con{
         text-align: center;
@@ -838,7 +836,10 @@ span {
     margin-left: 180px;
      }
     .bor {
-     margin-bottom: 20px;
+     /* margin-bottom: 20px; */
+     width: auto;
+     /* margin: auto; */
+     margin-bottom: 10px;
    }  
     #team1{
         width: 320px;
@@ -847,6 +848,29 @@ span {
         margin-top: 0px;
         margin-bottom: 0px;
     } */
+     .protlist{
+        width: auto;
+        padding: 0px;
+     }
+     .portimg{
+        padding: 0px;
+        margin: auto;
+        width: 250px;
+     }
+     #img1{
+        margin: auto;
+        width: auto;
+        padding: 0px;
+     }
+     #play{
+        margin: auto;
+        padding: 0px;
+     }
+     .card1{
+        width: auto;
+        margin: auto;
+        padding-bottom: 20px;
+     }
 }
 
 
