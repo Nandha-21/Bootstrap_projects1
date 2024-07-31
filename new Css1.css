@@ -16,6 +16,10 @@ body{
 .mail:hover{
     text-decoration:underline ;
 }
+#min-icon:hover{
+    color: white;
+   opacity: 1;
+}
 #navbarNavDropdown {
     font-weight: bold;
     /* color: white; */
@@ -310,14 +314,9 @@ body{
     position: relative;
     align-content: center;
     color: white;
-    /* font-size: 20px; */
-    /* margin-left: 20px; */
-    /* text-align: justify; */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 600px;
+    /* filter: brightness(80%); */
+    height: 550px;
     border-radius: 20px;
-    /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)); */
 }
 .call-action {
     text-decoration: none;
@@ -338,18 +337,6 @@ body{
 .nes-after {
     margin-bottom: 15px;
 }
-/* .unline::after{
-    position: absolute;
-    content: "";
-    justify-content: center;
-    align-content: center;
-    width: 125px;
-    height: 3px;
-    display: block;
-    margin-top: 20px !important;
-    margin-bottom: 30px !important;
-    background-color:rgb(231,233,233);  */
-/* } */
 /* ---------------------           Our Service           ------------------------------------- */
 .h-100 {
     margin-left: 20px;
@@ -883,11 +870,15 @@ span {
      #img1{
         margin: auto;
         width: auto;
+        height: auto;
         padding: 0px;
      }
      #play{
         margin: auto;
-        padding: 0px;
+        font-size: 40px;
+        /* padding: 0px; */
+        /* padding: 108px; */
+        margin: 100px;
      }
      .card1{
         width: auto;
@@ -900,6 +891,7 @@ span {
      .box-free{
         margin: auto;
      }
+   
 }
 
 
