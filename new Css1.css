@@ -7,6 +7,15 @@ body{
     scroll-behavior: smooth;
 }
 /* ---------------------------------- */
+.mail{
+    text-decoration: none;
+    color: white;
+    /* padding-bottom: 50px; */
+   /* margin-left: 30px; */
+}
+.mail:hover{
+    text-decoration:underline ;
+}
 #navbarNavDropdown {
     font-weight: bold;
     /* color: white; */
@@ -27,13 +36,13 @@ body{
     color: white;
 }
 /* ------------------   HOME    ---------------------*/
-.border {
+.get{
     text-decoration: none;
     transition: 0.5s ease-in;
-    /* border: 2px solid red; */
+    border: 2px solid rgb(49, 155, 143);
     border-radius: 25px;
     /* margin: 10px; */
-    /* opacity: 0.5; */
+    opacity: 1;
     padding: 10px 35px;
     /* width: 200px; */
     display: inline-block;
@@ -42,9 +51,9 @@ body{
     color: white;
     background-color: rgb(26, 144, 130);
 }
-.border:hover {
-    opacity: 0.9;
-    /* border: 5px solid white; */
+.get:hover {
+    opacity: 0.7;
+    border: 2px solid white;
 }
 #icon {
     opacity: 0.5;
@@ -52,9 +61,6 @@ body{
 #icon:hover {
     opacity: 1;
 }
-/* #a{
-  margin-bottom: 100px;  
-} */
 .box {
     /* display: inline-flex; */
     width: 250px;
@@ -77,7 +83,7 @@ body{
     /* transform: scale(1,2);
     transform: translate(200px,200px) */
 }
-#lett{
+#lett{  
     opacity: 0.7;
 }
 .box-hover:hover #lett{
@@ -208,20 +214,6 @@ body{
     height: 300px;
     border-radius: 20px;
 }
-/* .pulsating-play-btn {
-    width: 94px;
-    height: 94px;
-    background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
-    border-radius: 50%;
-    display: block;
-    position: relative;
-    overflow: hidden;
-  }
- */
-/* .b{
-    font-weight: bolder;
-    font-size: 20px;
-} */
 .a {
     font-size: 40px;
     font-weight: bolder;
@@ -417,11 +409,6 @@ body{
 #card-text {
     font-style: italic;
 }
-/* .card{
-    width: 500px;
-    height: 10px;
-    border: 1px solid black;
-} */
 .card1 {
     width: 270px;
     height: 300px;
@@ -477,11 +464,11 @@ body{
     width: 22rem;
 }
 .portimg {
-    transition: 0.3s ease-in-out;
+    transition: 0.3s;
 }
 .portimg:hover {
-    transform: scale(0.9, 0.9);
-    transform-box: scale(0.9);
+    transform: scale(1.1);
+    /* transform-box: scale(0.9); */
 }
 /* -------------------------------------------          Our Team              ---------------------------------------------- */
 .team-a {
@@ -582,7 +569,7 @@ span {
     border-radius: 20px;
     height: 700px !important;
 }
-.buy {
+.buy{
     border: 1px solid rgb(231, 231, 231);
     width: 180px;
     height: 50px;
@@ -597,6 +584,24 @@ span {
     color: black;
 }
 .buy:hover {
+    color: white;
+    background-color: rgb(26, 144, 130);
+}
+.buy-1{
+    border: 1px solid rgb(231, 231, 231);
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 60px;
+    /* margin-bottom: 40px; */
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.buy-1:hover {
     color: white;
     background-color: rgb(26, 144, 130);
 }
@@ -708,10 +713,12 @@ span {
     color: white;
     border: 1px solid rgb(72, 166, 155);
     border-radius: 50%;
-    /* height: 80px; */
-    /* width: 100px; */
     padding: 6px 10px;
     background-color: rgb(72, 166, 155);
+}
+.con-box:hover .con-log{
+    color: rgb(49, 155, 143);
+    background-color: white;
 }
 .con-nam {
     width: 100%;
@@ -759,10 +766,11 @@ span {
     color: white;
     /* margin-bottom: 30px; */
     cursor: pointer;
-    opacity: 0.9;
+    opacity: 0.7;
     font-size: 14px;
 }
 .use:hover {
+    opacity: 1;
     color: white;
 }
 .use-1 {
@@ -787,8 +795,13 @@ span {
     .navbar-collapse{
         background-color: white;
     }
+    .navbar-nav{
+        overflow: scroll;
+        height: 300px;
+        margin-left: 25px;
+    }
     #ho1{
-        color: black;
+        color: rgb(49, 155, 143);
     }
     .img-5 {
         width: auto;
@@ -811,12 +824,26 @@ span {
     }
     .box-pricing {
      margin: auto;
-     width: auto;
-       /* margin-bottom: 20px; */
+     width: 300px;
+       margin-bottom: 20px;
+       height:auto;
+       /* padding: 0px; */
     }
     .box-pricing-1{
-      width: auto;
+      width: 300px;
       margin: auto;
+      height: auto;
+      /* margin-bottom: 200px; */
+      /* padding-bottom: 0px; */
+      padding: 0px;
+      /* margin-top: 20px; */
+    }
+    .buy-1{
+        margin-top: -20px;
+        padding: 0px;
+    }
+    .buy{
+        margin-bottom: 9px;
     }
      .as{
      text-align: left;       
@@ -844,11 +871,7 @@ span {
     #team1{
         width: 320px;
     }
-    /* .fot-hr{
-        margin-top: 0px;
-        margin-bottom: 0px;
-    } */
-     .protlist{
+    .protlist{
         width: auto;
         padding: 0px;
      }
@@ -869,7 +892,13 @@ span {
      .card1{
         width: auto;
         margin: auto;
+        height: 380px;
+     }
+     .car{
         padding-bottom: 20px;
+     }
+     .box-free{
+        margin: auto;
      }
 }
 
