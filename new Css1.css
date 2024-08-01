@@ -36,6 +36,19 @@ body{
     margin-top: -20px;
     padding:0px;
 }
+.deep{
+    list-style: none;
+    transform: translateX(-150px);
+    position: absolute;
+     display: none;
+     border: 1px solid white;
+     width: 150px;
+     height: 130px;
+     background-color: white;
+ }
+.dropdown-menu li:nth-child(2):hover .deep{
+    display: block;
+}
 #ho1{
     color: white;
 }
