@@ -1,4 +1,28 @@
 .home{
     background-color:  rgb(0, 131, 116);
-    height: 500px;
+    height: 325px;
+    padding: 100px;
+}
+.home1{
+    text-decoration: none;
+    color: white; 
+    position: relative;
+    padding: 22px;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+.ser{
+    color: white;
+    /* padding: 20px; */
+    margin-left: 66px; 
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+}
+.order-list{
+    text-decoration: none;
+    margin-top: 50px;
+    list-style: none;
+    border: 1px solid black;
 }
