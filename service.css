@@ -7,7 +7,7 @@
     text-decoration: none;
     color: white; 
     position: relative;
-    padding: 22px;
+    /* padding: 22px; */
     font-size: 15px;
     font-weight: 600;
     opacity: 0.5;
@@ -15,7 +15,7 @@
 .ser{
     color: white;
     /* padding: 20px; */
-    margin-left: 66px; 
+    /* margin-left: 66px;  */
     position: absolute;
     font-size: 18px;
     font-weight: 600;
@@ -27,4 +27,10 @@
     border: 1px solid white;
     width: 400px;
     height: 300px;
+}
+.web{
+    /* width: 0px; */
+    /* height: 0px; */
+    border-left: 3px solid red;
+    
 }
