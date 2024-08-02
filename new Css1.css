@@ -378,11 +378,10 @@ body{
     opacity: 0.8;
 }
 .unline {
-    width: 135px;
+    width: 140px;
     padding-bottom: 10px;
     border-bottom: 3px solid rgb(185, 185, 185);
-  opacity: 0.6;
-  
+   opacity: 0.6;
 }
 .h-100:hover .unline{
     border-bottom: 3px solid  rgb(26,144,130);

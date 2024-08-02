@@ -24,13 +24,27 @@
     margin-top: 50px;
     padding-top: 27px;
     list-style: none;
-    border: 1px solid white;
-    width: 400px;
+    border: 1px solid rgb(232,232,232);
+    width: 350px;
     height: 300px;
 }
+#ser-img{
+    width: 750px;
+     padding-top: 50px;
+}
 .web{
-    /* width: 0px; */
-    /* height: 0px; */
-    border-left: 3px solid red;
-    
+    border-left: 3px solid rgb(188,188,188);
+}
+.web-1{
+    border-left: 3px solid rgb(0,131,116);
+}
+.web:hover{
+    border-left: 3px solid rgb(0,131,116);
+}
+@media screen and (max-width: 760px) {
+    #ser-img{
+        width: auto;
+        height: auto;
+        padding:0px;
+    }
 }
