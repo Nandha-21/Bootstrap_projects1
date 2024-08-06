@@ -12,6 +12,11 @@
     font-weight: 600;
     opacity: 0.5;
 }
+#pp{
+    font-size:17px;
+     opacity: 1;
+     font-weight: 500;
+}
 .ser{
     color: white;
     /* padding: 20px; */
@@ -47,4 +52,13 @@
         height: auto;
         padding:0px;
     }
+    .home{
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    #pp{
+        margin: auto;
+    }
+
 }
