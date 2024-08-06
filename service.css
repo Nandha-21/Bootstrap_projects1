@@ -8,9 +8,12 @@
     color: white; 
     position: relative;
     /* padding: 22px; */
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     opacity: 0.5;
+}
+.home1:hover{
+    opacity: 1;
 }
 #pp{
     font-size:17px;
@@ -20,7 +23,7 @@
 .ser{
     color: white;
     /* padding: 20px; */
-    /* margin-left: 66px;  */
+    margin-left: 12px; 
     position: absolute;
     font-size: 18px;
     font-weight: 600;
